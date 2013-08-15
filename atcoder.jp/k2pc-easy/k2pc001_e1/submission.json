@@ -1,0 +1,12 @@
+{
+	"id": 94069,
+	"epoch_second": 1376537325,
+	"problem_id": "k2pc001_e1",
+	"contest_id": "k2pc-easy",
+	"user_id": "okura",
+	"language": "C++ (G++ 4.6.4)",
+	"point": 500,
+	"length": 854,
+	"result": "AC",
+	"execution_time": 28
+}
