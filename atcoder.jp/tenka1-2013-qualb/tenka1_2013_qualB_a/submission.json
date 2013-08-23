@@ -1,0 +1,12 @@
+{
+	"id": 95026,
+	"epoch_second": 1377248863,
+	"problem_id": "tenka1_2013_qualB_a",
+	"contest_id": "tenka1-2013-qualb",
+	"user_id": "okura",
+	"language": "C++ (G++ 4.6.4)",
+	"point": 20,
+	"length": 811,
+	"result": "AC",
+	"execution_time": 22
+}
