@@ -1,0 +1,12 @@
+{
+	"id": 338536,
+	"epoch_second": 1423985444,
+	"problem_id": "joisc2010_dna",
+	"contest_id": "joisc2010",
+	"user_id": "okura",
+	"language": "C++ (G++ 4.6.4)",
+	"point": 100,
+	"length": 1824,
+	"result": "AC",
+	"execution_time": 642
+}
