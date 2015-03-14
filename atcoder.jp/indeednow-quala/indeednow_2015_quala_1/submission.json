@@ -1,0 +1,12 @@
+{
+	"id": 355937,
+	"epoch_second": 1426335035,
+	"problem_id": "indeednow_2015_quala_1",
+	"contest_id": "indeednow-quala",
+	"user_id": "okura",
+	"language": "C++ (G++ 4.6.4)",
+	"point": 100,
+	"length": 947,
+	"result": "AC",
+	"execution_time": 25
+}
