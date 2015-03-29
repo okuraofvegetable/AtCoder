@@ -1,0 +1,12 @@
+{
+	"id": 371316,
+	"epoch_second": 1427602962,
+	"problem_id": "utpc2014_c",
+	"contest_id": "utpc2014",
+	"user_id": "okura",
+	"language": "C++ (GCC 4.9.2)",
+	"point": 100,
+	"length": 2048,
+	"result": "AC",
+	"execution_time": 188
+}
