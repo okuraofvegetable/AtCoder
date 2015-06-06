@@ -1,0 +1,12 @@
+{
+	"id": 420405,
+	"epoch_second": 1433593198,
+	"problem_id": "dfs_a",
+	"contest_id": "atc001",
+	"user_id": "okura",
+	"language": "C++ (GCC 4.9.2)",
+	"point": 100,
+	"length": 1599,
+	"result": "AC",
+	"execution_time": 74
+}
