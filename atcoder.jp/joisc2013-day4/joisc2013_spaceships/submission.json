@@ -1,0 +1,12 @@
+{
+	"id": 552669,
+	"epoch_second": 1446216588,
+	"problem_id": "joisc2013_spaceships",
+	"contest_id": "joisc2013-day4",
+	"user_id": "okura",
+	"language": "C++ (G++ 4.6.4)",
+	"point": 100,
+	"length": 3665,
+	"result": "AC",
+	"execution_time": 2420
+}
