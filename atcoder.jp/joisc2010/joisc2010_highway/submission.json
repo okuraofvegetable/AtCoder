@@ -1,0 +1,12 @@
+{
+	"id": 553112,
+	"epoch_second": 1446279133,
+	"problem_id": "joisc2010_highway",
+	"contest_id": "joisc2010",
+	"user_id": "okura",
+	"language": "C++ (G++ 4.6.4)",
+	"point": 100,
+	"length": 7853,
+	"result": "AC",
+	"execution_time": 537
+}
