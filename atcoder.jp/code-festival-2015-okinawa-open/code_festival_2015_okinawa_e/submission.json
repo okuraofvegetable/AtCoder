@@ -1,0 +1,12 @@
+{
+	"id": 598124,
+	"epoch_second": 1450665957,
+	"problem_id": "code_festival_2015_okinawa_e",
+	"contest_id": "code-festival-2015-okinawa-open",
+	"user_id": "okura",
+	"language": "C++ (GCC 4.9.2)",
+	"point": 100,
+	"length": 1128,
+	"result": "AC",
+	"execution_time": 30
+}
