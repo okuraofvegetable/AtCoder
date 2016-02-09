@@ -1,0 +1,12 @@
+{
+	"id": 633600,
+	"epoch_second": 1455035419,
+	"problem_id": "joisc2013_spy",
+	"contest_id": "joisc2013-day2",
+	"user_id": "okura",
+	"language": "C++ (G++ 4.6.4)",
+	"point": 100,
+	"length": 1591,
+	"result": "AC",
+	"execution_time": 752
+}
