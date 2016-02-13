@@ -1,0 +1,12 @@
+{
+	"id": 635512,
+	"epoch_second": 1455322351,
+	"problem_id": "discovery_2016_qual_c",
+	"contest_id": "discovery2016-qual",
+	"user_id": "okura",
+	"language": "C++ (GCC 4.9.2)",
+	"point": 100,
+	"length": 1769,
+	"result": "AC",
+	"execution_time": 837
+}
