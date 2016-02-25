@@ -1,0 +1,122 @@
+#include "grader.h"
+#include "salt.h"
+#include <bits/stdc++.h>
+using namespace std;
+typedef pair<int,int> P;
+typedef long long ll;
+typedef vector<int> vi;
+typedef vector<ll> vll;
+#define pu push
+#define pb push_back
+#define mp make_pair
+#define eps 1e-9
+#define INF 2000000000
+#define sz(x) ((int)(x).size())
+#define fi first
+#define sec second
+#define SORT(x) sort((x).begin(),(x).end())
+#define all(x) (x).begin(),(x).end()
+#define EQ(a,b) (abs((a)-(b))<EPS)
+vector<int> g[1010];
+int par[1010],chnum[1010];
+bool ban[1010];
+int node,edge,_N;
+void debug(){
+	for(int i=1;i<=_N;i++){
+		printf("par[%d]=%d\n",i,par[i]);
+	}
+	for(int i=1;i<=_N;i++){
+		printf("chnum[%d]=%d\n",i,chnum[i]);
+	}
+}
+void init(int v,int p){
+	chnum[v]=0;
+	par[v]=p;
+	for(int i=0;i<g[v].size();i++){
+		int ch = g[v][i];
+		if(ch==p)continue;
+		init(ch,v);
+		chnum[v]++;
+	}
+}
+void erase_node(int v){
+	node--;
+	if(par[v]!=-1)edge--;
+	int sum = 1;
+	for(int i=0;i<g[v].size();i++){
+		int ch = g[v][i];
+		if(ch==-1||ban[ch]||ch==par[v])continue;
+		par[ch]=-1;
+		edge--;
+	}
+	if(par[v]!=-1)chnum[par[v]]--;
+	ban[v] = true;
+}
+void erase_edge(int u,int v){
+	edge--;
+	for(int i=0;i<g[u].size();i++){
+		if(g[u][i]==v){
+			g[u][i]=-1;
+			break;
+		}
+	}
+	for(int i=0;i<g[v].size();i++){
+		if(g[v][i]==u){
+			g[v][i]=-1;
+			break;
+		}
+	}
+	chnum[u]--;
+	par[v]=-1;
+}
+
+void play(int N, int E[][2]) {
+	_N = N;
+	node = N;
+	edge = N-1;
+	for(int i=0;i<N-1;i++){
+		g[E[i][0]].pb(E[i][1]);
+		g[E[i][1]].pb(E[i][0]);
+	}
+	init(1,-1);
+	//debug();
+	while(true){
+		int ru=-1, rv=-1;
+		for(int i=1;i<=N;i++){
+			if(ban[i])continue;
+			int nn = node-1;
+			int ne = edge-chnum[i]-(par[i]==-1?0:1);
+			if(nn%2==0&&ne%2==0){
+				turn(i,i,&ru,&rv);
+				erase_node(i);
+				goto end;
+			}
+		}
+		for(int i=1;i<=N;i++){
+			if(ban[i]||par[i]==-1)continue;
+			if(node%2==0&&(edge-1)%2==0){
+				int a = par[i];
+				int b = i;
+				if(a>b)swap(a,b);
+				turn(a,b,&ru,&rv);
+				erase_edge(par[i],i);
+				goto end;
+			}
+		}
+		end:;
+		if(ru==0)break;
+		//printf("ru rv %d %d\n",ru,rv);
+		if(ru!=-1){
+			if(ru==rv)erase_node(ru);
+			else{
+				if(par[rv]!=ru)erase_edge(rv,ru);
+				else erase_edge(ru,rv);
+			}
+		}
+		//printf("%d %d\n",node,edge);
+		//debug();
+		/*int gg;
+		scanf("%d",&gg);*/
+	}
+	return;
+}
