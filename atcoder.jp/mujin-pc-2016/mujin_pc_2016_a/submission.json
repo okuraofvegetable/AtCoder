@@ -1,0 +1,12 @@
+{
+	"id": 645494,
+	"epoch_second": 1456574498,
+	"problem_id": "mujin_pc_2016_a",
+	"contest_id": "mujin-pc-2016",
+	"user_id": "okura",
+	"language": "C++ (GCC 4.9.2)",
+	"point": 100,
+	"length": 634,
+	"result": "AC",
+	"execution_time": 27
+}
