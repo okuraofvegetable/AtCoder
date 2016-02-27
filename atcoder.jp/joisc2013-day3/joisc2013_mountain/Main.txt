@@ -1,0 +1,42 @@
+#include "grader.h"
+#include <bits/stdc++.h>
+using namespace std;
+typedef pair<int,int> P;
+#define fi first
+#define sec second
+#define pb push_back
+#define INF 2000000000
+int f[205][205],h[205][205];
+int dx[4]={0,0,1,-1};
+int dy[4]={1,-1,0,0};
+void Rescue(int R, int C, int RS, int CS, int X) {
+	int x,y;
+	x = RS,y = 1;
+	while(x>0&&y<=CS){
+		int val = Measure(x,y);
+		if(val==X)Pinpoint(x,y);
+		if(val<X)y++;
+		else x--;
+	}
+	x = RS,y = 1;
+	while(x<=R&&y<=CS){
+		int val = Measure(x,y);
+		if(val==X)Pinpoint(x,y);
+		if(val<X)y++;
+		else x++;
+	}
+	x = RS,y = C;
+	while(x>0&&y>=CS){
+		int val = Measure(x,y);
+		if(val==X)Pinpoint(x,y);
+		if(val<X)y--;
+		else x--;
+	}
+	x = RS,y = C;
+	while(x<=R&&y>=CS){
+		int val = Measure(x,y);
+		if(val==X)Pinpoint(x,y);
+		if(val<X)y--;
+		else x++;
+	}
+}
