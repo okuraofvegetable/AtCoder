@@ -1,0 +1,12 @@
+{
+	"id": 648339,
+	"epoch_second": 1456642169,
+	"problem_id": "joisc2008_nightman",
+	"contest_id": "joisc2008",
+	"user_id": "okura",
+	"language": "C++ (G++ 4.6.4)",
+	"point": 100,
+	"length": 2560,
+	"result": "AC",
+	"execution_time": 119
+}
