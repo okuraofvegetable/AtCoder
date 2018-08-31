@@ -1,0 +1,12 @@
+{
+	"id": 3109305,
+	"epoch_second": 1535756774,
+	"problem_id": "cf16_exhibition_final_b",
+	"contest_id": "cf16-exhibition-final-open",
+	"user_id": "okura",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 500,
+	"length": 1816,
+	"result": "AC",
+	"execution_time": 1
+}
