@@ -1,0 +1,12 @@
+{
+	"id": 3365058,
+	"epoch_second": 1538925806,
+	"problem_id": "colopl2018_qual_d",
+	"contest_id": "colopl2018-qual",
+	"user_id": "okura",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 500,
+	"length": 1636,
+	"result": "AC",
+	"execution_time": 405
+}
