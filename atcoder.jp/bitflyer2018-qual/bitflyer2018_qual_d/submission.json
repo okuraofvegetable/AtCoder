@@ -1,0 +1,12 @@
+{
+	"id": 3391107,
+	"epoch_second": 1539412812,
+	"problem_id": "bitflyer2018_qual_d",
+	"contest_id": "bitflyer2018-qual",
+	"user_id": "okura",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 500,
+	"length": 1975,
+	"result": "AC",
+	"execution_time": 128
+}
