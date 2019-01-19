@@ -1,0 +1,12 @@
+{
+	"id": 4039168,
+	"epoch_second": 1547860571,
+	"problem_id": "ddcc2019_final_a",
+	"contest_id": "ddcc2019-final",
+	"user_id": "okura",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 300,
+	"length": 1064,
+	"result": "AC",
+	"execution_time": 6
+}
