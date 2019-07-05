@@ -1,0 +1,12 @@
+{
+	"id": 6244266,
+	"epoch_second": 1562322305,
+	"problem_id": "abc131_a",
+	"contest_id": "abc131",
+	"user_id": "okura",
+	"language": "Brainfuck (bf 20041219)",
+	"point": 100,
+	"length": 167,
+	"result": "AC",
+	"execution_time": 9
+}
