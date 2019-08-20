@@ -1,0 +1,52 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef pair<int,int> P;
+typedef pair<P,int> T;
+typedef long long ll;
+typedef vector<int> vi;
+typedef vector<ll> vll;
+#define pb push_back
+#define mp make_pair
+#define eps 1e-9
+#define INF 2000000000
+#define sz(x) ((int)(x).size())
+#define fi first
+#define sec second
+#define all(x) (x).begin(),(x).end()
+#define sq(x) ((x)*(x))
+#define rep(i,n) for(int (i)=0;(i)<(int)(n);(i)++)
+#define repn(i,a,n) for(int (i)=(a);(i)<(int)(n);(i)++)
+#define EQ(a,b) (abs((a)-(b))<eps)
+template<class T> void chmin(T& a,const T& b){if(a>b)a=b;}
+template<class T> void chmax(T& a,const T& b){if(a<b)a=b;}
+int M;
+int K;
+int main(){
+	cin >> M >> K;
+	if(K>=(1<<M)){
+		cout << -1 << endl;
+		return 0;
+	}
+	if(M==1&&K==0){
+		cout << "0 0 1 1" << endl;
+		return 0;
+	}
+	if(M==1&&K==1){
+		cout << -1 << endl;
+		return 0;
+	}
+	deque<int> q;
+	q.pb(K);
+	for(int i=0;i<(1<<M);i++){
+		if(i==K)continue;
+		q.push_front(i);
+		q.push_back(i);
+	}
+	q.push_back(K);
+	for(int i=0;i<q.size();i++){
+		cout << q[i];
+		if(i+1<q.size())cout << ' ';
+		else cout << endl;
+	}
+	return 0;
+}
