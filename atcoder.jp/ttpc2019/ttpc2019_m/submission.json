@@ -1,0 +1,12 @@
+{
+	"id": 7235497,
+	"epoch_second": 1567267327,
+	"problem_id": "ttpc2019_m",
+	"contest_id": "ttpc2019",
+	"user_id": "okura",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 100,
+	"length": 2977,
+	"result": "AC",
+	"execution_time": 419
+}
