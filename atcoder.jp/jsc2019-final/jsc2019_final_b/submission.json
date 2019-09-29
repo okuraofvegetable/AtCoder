@@ -1,0 +1,12 @@
+{
+	"id": 7780445,
+	"epoch_second": 1569729929,
+	"problem_id": "jsc2019_final_b",
+	"contest_id": "jsc2019-final",
+	"user_id": "okura",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 400,
+	"length": 4406,
+	"result": "AC",
+	"execution_time": 50
+}
