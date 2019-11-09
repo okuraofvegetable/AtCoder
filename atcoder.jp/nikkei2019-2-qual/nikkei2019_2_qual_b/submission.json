@@ -1,0 +1,12 @@
+{
+	"id": 8365892,
+	"epoch_second": 1573306834,
+	"problem_id": "nikkei2019_2_qual_b",
+	"contest_id": "nikkei2019-2-qual",
+	"user_id": "okura",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 300,
+	"length": 3835,
+	"result": "AC",
+	"execution_time": 10
+}
