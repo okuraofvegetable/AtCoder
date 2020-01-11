@@ -1,0 +1,12 @@
+{
+	"id": 9424074,
+	"epoch_second": 1578745237,
+	"problem_id": "dwacon6th_prelims_b",
+	"contest_id": "dwacon6th-prelims",
+	"user_id": "okura",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 600,
+	"length": 5530,
+	"result": "AC",
+	"execution_time": 21
+}
