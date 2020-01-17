@@ -1,0 +1,12 @@
+{
+	"id": 9551597,
+	"epoch_second": 1579284495,
+	"problem_id": "asaporo_e",
+	"contest_id": "cf16-tournament-round2-open",
+	"user_id": "okura",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 700,
+	"length": 4327,
+	"result": "AC",
+	"execution_time": 1
+}
