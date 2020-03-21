@@ -1,0 +1,12 @@
+{
+	"id": 11039450,
+	"epoch_second": 1584773376,
+	"problem_id": "dwango2017qual_a",
+	"contest_id": "dwacon2017-prelims",
+	"user_id": "okura",
+	"language": "C++14 (GCC 5.4.1)",
+	"point": 100,
+	"length": 1805,
+	"result": "AC",
+	"execution_time": 1
+}
