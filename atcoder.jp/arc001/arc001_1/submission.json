@@ -1,0 +1,12 @@
+{
+	"id": 18077606,
+	"epoch_second": 1605263696,
+	"problem_id": "arc001_1",
+	"contest_id": "arc001",
+	"user_id": "okura",
+	"language": "C++ (GCC 9.2.1)",
+	"point": 100,
+	"length": 3222,
+	"result": "AC",
+	"execution_time": 7
+}
