@@ -1,0 +1,12 @@
+{
+	"id": 18167653,
+	"epoch_second": 1605513748,
+	"problem_id": "aising2019_e",
+	"contest_id": "aising2019",
+	"user_id": "okura",
+	"language": "C++ (GCC 9.2.1)",
+	"point": 600,
+	"length": 4431,
+	"result": "AC",
+	"execution_time": 311
+}
