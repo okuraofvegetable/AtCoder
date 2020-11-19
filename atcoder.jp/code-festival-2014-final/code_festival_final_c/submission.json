@@ -1,0 +1,12 @@
+{
+	"id": 18213260,
+	"epoch_second": 1605748089,
+	"problem_id": "code_festival_final_c",
+	"contest_id": "code-festival-2014-final",
+	"user_id": "okura",
+	"language": "C++ (GCC 9.2.1)",
+	"point": 100,
+	"length": 3332,
+	"result": "AC",
+	"execution_time": 7
+}
