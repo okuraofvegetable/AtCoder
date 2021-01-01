@@ -1,0 +1,12 @@
+{
+	"id": 19104365,
+	"epoch_second": 1609523332,
+	"problem_id": "diverta2019_2_e",
+	"contest_id": "diverta2019-2",
+	"user_id": "okura",
+	"language": "C++ (GCC 9.2.1)",
+	"point": 800,
+	"length": 7680,
+	"result": "AC",
+	"execution_time": 65
+}
