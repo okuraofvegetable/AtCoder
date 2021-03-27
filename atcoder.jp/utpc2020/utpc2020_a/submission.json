@@ -1,0 +1,12 @@
+{
+	"id": 21277503,
+	"epoch_second": 1616817895,
+	"problem_id": "utpc2020_a",
+	"contest_id": "utpc2020",
+	"user_id": "okura",
+	"language": "C++ (GCC 9.2.1)",
+	"point": 100,
+	"length": 4406,
+	"result": "AC",
+	"execution_time": 61
+}
